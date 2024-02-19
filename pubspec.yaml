@@ -1,0 +1,40 @@
+name: nh_korindo_mts
+description: Cryptocurrency portfolio and market explorer.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  avatar_glow: ^2.0.2
+  percent_indicator: ^4.2.3
+  permission_handler: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/person.png
+    - assets/app_logo.png
+    - assets/cart.png
+    - assets/delivery.png
+    - assets/paid.png
+    - assets/product.png
+    - assets/rupee.png
+    - assets/shopping-bag.png
+    - assets/store.png
+    - assets/wallet.png
+    - assets/m_mts_bg_install.png
+    - assets/m_mts_bg_intro.png
+    - assets/m_mts_img_bi_login_winpro.png
